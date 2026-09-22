@@ -1,0 +1,268 @@
+@media (max-width: 1300px) {
+  .main-button {
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  nav.navbar .navbar-nav {
+    display: none;
+  }
+
+  #Sidebar .sidebar {
+    width: 300px;
+  }
+  #Sidebar .sidebar .body ul li {
+    width: 80%;
+  }
+  #Sidebar .sidebar .footer {
+    font-size: 14px;
+  }
+  #BookPopup.popup {
+    overflow-y: auto;
+  }
+  #BookPopup.popup .content {
+    min-width: 300px;
+    width: 90%;
+    max-width: 500px;
+  }
+  .SC-carousel button {
+    display: none;
+  }
+  .SC-carousel .SC-carousel-item .content .img {
+    width: 32%;
+  }
+  .SC-carousel .book-icon {
+    left: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    padding: 8px 25px;
+    transform: scale(0.8);
+  }
+  #About {
+    height: initial;
+  }
+  #About .head p {
+    width: 80%;
+  }
+  #About .box {
+    translate: 0px 20px;
+    padding: 0px 0px 90px 0px;
+  }
+  #About .part {
+    margin-bottom: 30px;
+  }
+  #About .top-margin {
+    translate: 0px 0px;
+  }
+
+  #Story {
+    height: auto;
+  }
+  #Story .part {
+    width: 100%;
+  }
+  #Story .part p {
+    font-size: 14px;
+  }
+  #Story .part h2 {
+    font-size: 30px;
+  }
+  #Story .part h4 {
+    font-size: 20px;
+  }
+  #Story .part .telephone {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  #Story .part2 .item {
+    scale: 0.9;
+  }
+  #Story .part2 .bg-img {
+    scale: 0.8;
+  }
+  #Story .part2 .chef {
+    scale: 0.6;
+    bottom: -15px;
+    left: -50px;
+  }
+  #Story .part2 .badge1 {
+    top: 10px;
+    right: 0px;
+    scale: 0.8;
+  }
+
+  #Story .part2 .badge2 {
+    top: 10px;
+    right: 0px;
+    scale: 0.8;
+  }
+  #Dish {
+    height: auto;
+  }
+  #Dish .box {
+    flex-direction: column;
+  }
+  #Dish .box .part.part1 {
+    height: 100vh;
+  }
+  #Dish .box .part {
+    width: 100%;
+    height: auto;
+  }
+  #Dish .box .part2 {
+    padding: 40px;
+  }
+  #Dish .box .part2 .content {
+    width: 85%;
+  }
+  #Dish .box .part2 .content p,
+  #Dish .box .part2 .content p.price span {
+    font-size: 14px;
+  }
+  #Dish .box .part2 .content p.price {
+    font-size: 18px;
+  }
+  #Dish .box .part2 .content h2 {
+    font-size: 30px;
+  }
+  #Dish .box .part2 .content h6 {
+    font-size: 16px;
+  }
+  #Dish .box .part2 .content .img {
+    width: 40%;
+  }
+  #Chefs .part {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  #Chefs .item .head {
+    width: 95%;
+  }
+
+  #Contact .content {
+    width: 300px;
+  }
+
+  #MenuPopup .content {
+    width: 300px;
+    padding: 40px 25px;
+  }
+
+  #MenuPopup .content .top-content .img {
+    width: 40%;
+  }
+
+  #MenuPopup .content h2.h1 {
+    font-size: 20px;
+  }
+  #MenuPopup .content p {
+    text-align: start;
+  }
+
+  #MenuPopup .content .image button {
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  #MenuPopup .content .image .price {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  #MenuPopup .content {
+    width: 400px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  #BookPopup.popup .content {
+    width: 70%;
+  }
+  #Sidebar .sidebar {
+    width: 400px;
+  }
+  #Sidebar .sidebar .body ul li {
+    width: 55%;
+  }
+  #Dish .box .part2 .content {
+    width: 70%;
+  }
+  #Contact .content {
+    width: 400px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .SC-carousel .SC-carousel-item .content .img {
+    width: 20%;
+  }
+  #BookPopup.popup .content {
+    width: 60%;
+  }
+  #Story .part {
+    width: 50%;
+  }
+  #Story .part2 .item {
+    scale: 1;
+  }
+  #Story .part2 .bg-img {
+    scale: 0.8;
+  }
+  #Story .part2 .chef {
+    scale: 0.6;
+    bottom: -60px;
+    left: -40px;
+  }
+  #Story .part2 .badge1 {
+    scale: 0.8;
+  }
+
+  #Story .part2 .badge2 {
+    scale: 0.8;
+  }
+  #Dish {
+    height: 100vh;
+  }
+  #Dish .box {
+    flex-direction: row;
+  }
+  #Dish .box .content {
+    width: 80%;
+  }
+  #Dish .box .part.part1 {
+    height: auto;
+  }
+  #Dish .box .part {
+    width: 50%;
+    height: 100%;
+  }
+
+  #Chefs .part {
+    width: calc(100% / 3);
+  }
+  #Contact .content {
+    width: 500px;
+  }
+
+  #MenuPopup .content {
+    width: 500px;
+  }
+  #MenuPopup .content .image {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .SC-carousel button {
+    display: flex;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}

@@ -1,0 +1,44 @@
+@keyframes rotate-full {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes navbar-button-animation {
+  from {
+    width: 40%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes up-and-down {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+@keyframes up-and-down2 {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+
+@keyframes menuShow {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px) translateX(0px);
+  }
+}
