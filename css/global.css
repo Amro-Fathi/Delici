@@ -162,54 +162,56 @@ i.close {
   gap: 5px;
 }
 
-
-
-
 #loadingScreen .letters-loading {
-    position: relative;
-    display: inline-block;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 1;
-    color: transparent;
-    -webkit-text-stroke: 1px #111;
+  position: relative;
+  display: inline-block;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px #111;
 }
 
 /* Filled letter that flips */
 #loadingScreen .letters-loading::after {
-    content: attr(data-letter);
-    position: absolute;
-    inset: 0;
+  position: absolute;
+  inset: 0;
 
-    color: #111;
+  color: #111;
 
-    backface-visibility: hidden;
-    transform: rotateY(90deg);
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
 
-    animation: letterFlip 2s infinite alternate;
-    animation-fill-mode: backwards;
+  animation: letterFlip 2s infinite alternate;
+  animation-fill-mode: backwards;
 }
 
 #loadingScreen .D::after {
-    animation-delay: 0s;
+  animation-delay: 0s;
+  content: "D";
 }
 
 #loadingScreen .E::after {
-    animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  content: "E";
 }
 
 #loadingScreen .L::after {
-    animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  content: "L";
 }
 
 #loadingScreen .I::after {
-    animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  content: "I";
 }
 
 #loadingScreen .C::after {
-    animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  content: "C";
 }
 
 #loadingScreen .I:last-child::after {
-    animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  content: "I";
 }
