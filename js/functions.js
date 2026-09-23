@@ -186,3 +186,4 @@ function goToMenu(that) {
   let sameMenu = MenuSection.querySelector(`.menu-links li[data-type="${type}"] `);
   sameMenu.click();
 }
+

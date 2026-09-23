@@ -14,7 +14,8 @@ let carousels = document.querySelectorAll("#Home .SC-carousel-item"),
   MenuSection = document.querySelector("#Menu"),
   menuLinks = MenuSection.querySelectorAll(".menu-links li:not(.square)"),
   menuContent = MenuSection.querySelector(".menu-parts"),
-  MenuPopup = document.querySelector("#MenuPopup");
+  MenuPopup = document.querySelector("#MenuPopup"),
+  loadingScreen = document.querySelector("#loadingScreen");
 
 changeMenuContent();
 
@@ -113,4 +114,11 @@ MenuPopup.addEventListener("click", function () {
   setTimeout(function () {
     MenuPopup.classList.add("d-none");
   }, 800);
+});
+
+window.addEventListener("DOMContentLoaded", function () {
+  loadingScreen.classList.remove("active");
+  setTimeout(function () {
+    loadingScreen.classList.add("d-none");
+  }, 200);
 });

@@ -137,3 +137,79 @@ i.close {
   align-items: start;
   transition-duration: 0.8s;
 }
+
+#loadingScreen {
+  background-color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Circle */
+
+#loadingScreen .loadingCircle {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-top-color: #111;
+  border-radius: 50%;
+  animation: loadingCircle 1s linear infinite;
+}
+
+#loadingScreen .textLoading {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+
+#loadingScreen .letters-loading {
+    position: relative;
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px #111;
+}
+
+/* Filled letter that flips */
+#loadingScreen .letters-loading::after {
+    content: attr(data-letter);
+    position: absolute;
+    inset: 0;
+
+    color: #111;
+
+    backface-visibility: hidden;
+    transform: rotateY(90deg);
+
+    animation: letterFlip 2s infinite alternate;
+    animation-fill-mode: backwards;
+}
+
+#loadingScreen .D::after {
+    animation-delay: 0s;
+}
+
+#loadingScreen .E::after {
+    animation-delay: 0.3s;
+}
+
+#loadingScreen .L::after {
+    animation-delay: 0.6s;
+}
+
+#loadingScreen .I::after {
+    animation-delay: 0.9s;
+}
+
+#loadingScreen .C::after {
+    animation-delay: 1.2s;
+}
+
+#loadingScreen .I:last-child::after {
+    animation-delay: 1.5s;
+}
