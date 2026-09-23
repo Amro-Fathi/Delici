@@ -171,6 +171,27 @@
     font-size: 14px;
     padding: 8px;
   }
+
+  #Menu .menu-links {
+overflow-x: auto;
+scrollbar-width: none;
+}
+  #Menu .menu-links ul {
+width: max-content;
+  }
+  #Menu .middle-line {
+display: none;
+}
+#Menu .part .item .col-3{
+  padding: 0;
+}
+#Menu .part .item .content .head .line {
+border: none;
+}
+#Menu .part .item .content .head h3 {
+  font-size:16px;
+}
+
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -256,6 +277,16 @@
     width: 80%;
     margin: auto;
   }
+
+    #Menu .middle-line {
+display: block;
+}
+
+#Menu .part .item .content .head .line {
+  border: 1px solid #a1a0a0;
+
+}
+
 }
 
 @media (min-width: 992px) and (max-width: 1300px) {
